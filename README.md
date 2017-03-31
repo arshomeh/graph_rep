@@ -5,14 +5,14 @@ INPUT FILES CAN BE DOWNLOADED FROM HERE: http://www.dis.uniroma1.it/challenge9/d
 
 EVERY FILE HAS TO BE BE CONVERTED FROM .gr FORMAT TO .edges FORMAT USING OUR CONVERTER
 
-##gr_to_edges_converter.c
+## gr_to_edges_converter.c
 
 	COMPILE WITH COMMAND: gcc -o <executable_name> gr_to_edges_converter.c
 	RUN WITH COMMAND: ./<executable_name> <input_file.gr>
 
 THE APPLICATION WILL CREATE A FILE WITH THE SAME NAME AS input_file 
 
-##CUDA IMPLEMENTATIONS:
+## CUDA IMPLEMENTATIONS:
 
 	BORUVKA
 		COMPILE WITH COMMAND: make boruvka
@@ -21,7 +21,7 @@ THE APPLICATION WILL CREATE A FILE WITH THE SAME NAME AS input_file
 		COMPILE WITH COMMAND: make dijkstra
 		RUN WITH COMMAND: ./dijkstra <input_file.edges>
 
-##openMP IMPLEMENTATIONS:
+## openMP IMPLEMENTATIONS:
 	
 	BORUVKA
 		COMPILE WITH COMMAND: make
