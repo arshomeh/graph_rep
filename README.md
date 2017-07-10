@@ -1,6 +1,6 @@
 ## Members
-	Arsak
-	Dimitris
+Arsak
+Dimitris
 # graph_rep
 Parallel variants of Boruvka and Dijkstra algorithms
 
